@@ -1,0 +1,31 @@
+Como configurar o typescript?
+
+Como rodar ts no node?
+
+npx tsc src/index.ts -> para transpilar para js
+
+
+como iniciar um tsconfig?
+
+npx tsc --init
+
+config modelo do tsconfig:
+
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true,
+    
+  }
+}
+
+TSX executa o typescript direto no node sem precisar de transpilar
+
+npm i tsx -D
+
+npm i tsup -D
+
+npm init -y typescript -D -> cria um template de um projeto

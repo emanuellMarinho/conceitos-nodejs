@@ -1,0 +1,12 @@
+O que é um pacote do NPM?
+📦 Pacote = Código empacotado e publicado na nuvem (NPM).
+🔄 Outros projetos podem usá-lo. Também é chamado de biblioteca.
+
+📍 Fluxo:
+[Código - Local] → [Nuvem] = Pacote
+
+O que é uma dependência?
+📌 Dependência = Quando um projeto usa um pacote da nuvem no código local.
+
+📍 Fluxo:
+[Código - Local] → [Nuvem] → [Projeto Local] = Dependência
